@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon.com Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css" class="css">
+
+</head>
+
+<body>
+
+  <!-- START OF HEADER SECTION -->
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo">
+          <img src="amazon_logo.png" alt="Amazon Logo">
+        </div>
+      </div>
+
+      <div class="nav-address border">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-second">India</p>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" type="text" class="search-input">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="nav-singin">
+        <p><span>Hello, sign in</span></p>
+        <p>Account & lists</p>
+      </div>
+
+      <div class="nav-return border">
+        <p><span>Return</span></p>
+        <p class="nav-second">& Orders</p>
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        Cart
+      </div>
+    </div>
+
+    <!-- Next Section  PANEL SECTION INSIDE HEADER SECTION-->
+    <div class="panel">
+      <div class="panel-all">
+        <i class="fa-solid fa-bars"></i>
+        All
+      </div>
+
+      <div class="panel-options">
+        <p>Today's Deals</p>
+        <p>Customer Services</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+      </div>
+
+      <div class="panel-deals">
+        Shop deals in electronics
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Next Slider SECTION-->
+  <div class="slider">
+    <div class="slides">
+      <img src="hero_image.jpg" alt="Slide 1">
+      <img src="2.jpg" alt="Slide 2">
+      <img src="3.jpg" alt="Slide 3">
+      <img src="4.jpg" alt="Slide 4">
+      <img src="5.jpg" alt="Slide 5">
+      <img src="6.jpg" alt="Slide 6">
+      <img src="7.jpg" alt="Slide 7">
+      <img src="8.jpg" alt="Slide 8">
+      <img src="1.jpg" alt="Slide 1">
+    </div>
+  </div>
+
+ 
+  <!-- Product container card -->
+  <main class="main">
+    <div class="card-product-container container">
+      <div class="card-product">
+        <h2>Up to 60% off | Stles of Men</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/Men's Fashion.jpg">
+            <p>Clothing</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Men's Watches.jpg">
+            <p>Men's Watches</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Dry-Fruits.jpg">
+            <p>Dry-Fruits</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Bag and Backpacks.jpg">
+            <p>Bag-Backpacks</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+
+      <div class="card-product">
+        <h2>Redefine your living room</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/Sofa cum Beds.jpg">
+            <p>Clothing</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Office Chairs and Study.jpg">
+            <p>Men's Watches</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Bean Bags.jpg">
+            <p>Dry-Fruits</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Dinning Sets.jpg">
+            <p>Bag-Backpacks</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+
+      <div class="card-product">
+        <h2>Top Deals in PCs</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/PC_Desktop.jpg" class="card-nested-PC_Desktop" />
+            <p>RGB PCs</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+
+      <div class="card-product">
+        <h2>Shop deals in fashion</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/Jeans.jpg">
+            <p>Jeans</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Tops.jpg">
+            <p>Tops</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Dresssses.jpg">
+            <p>Dresses</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Shoes.jpg">
+            <p>Shoes</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+    </div>
+
+
+    <div class="card-product-container container productBackgraound">
+      <div class="card-product">
+        <h2>Gaming accessories</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/Headset.jpg" />
+            <p>Headsets</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Keyboard.jpg" />
+            <p>Keyboard</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Mouse.jpg" />
+            <p>Mouse</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Chair.jpg" />
+            <p>Chairs</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+
+      <div class="card-product">
+        <h2>Top rated | Amazon Brands</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/toys.jpg" class="card-nested-toys" />
+            <p>Home Products</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+
+      <div class="card-product">
+        <h2>Refresh your space</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/Dinning.jpg" />
+            <p>Dinning</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Home.jpg" />
+            <p>Home</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Kitchen.jpg" />
+            <p>Kitchen</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Health and Beauty.jpg" />
+            <p>Health and Beauty</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+
+      <div class="card-product">
+        <h2>Top rated,premium quality | Amazon Brands</h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="ProductContainerCard/Home Products.jpg">
+            <p>Home Products</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Moden Furnitures.jpg">
+            <p>Furniture</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/essential-oils.jpg">
+            <p>Essenstial Oil</p>
+          </div>
+          <div class="card-nested">
+            <img src="ProductContainerCard/Women's Fashions.jpg">
+            <p>Women's Fashion</p>
+          </div>
+        </div>
+        <button class="card-product-btn">see more</button>
+      </div>
+    </div>
+
+    <!--Today's Hot deals -->
+    <section class="today_deals_container">
+      <div class="today_deals_heading">
+          <h1>Top Deals</h1>
+          <p><a href="#">See all deals</a></p>
+      </div> 
+  
+      <div class="today_deals_product_container">
+          <div class="today_deals_btn_container">
+              <button class="today_deal_btn" id="today_deal_btn_prev">
+                  <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="today_deal_btn" id="today_deal_btn_next">
+                  <i class="fa-solid fa-angle-right"></i>
+              </button>
+          </div>
+  
+          <div class="today_deals_product_list" id="today_deals_product_list">
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/1.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/2.jpg" />    
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/3.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/4.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/10.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/6.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/7.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/8.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/9.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/13.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/11.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                  <img src="Today'sTopDeals/12.jpg" />
+              </div>
+              <div class="today_deals_product_item">
+                <img src="Today'sTopDeals/14.jpg" />
+            </div>
+            <div class="today_deals_product_item">
+              <img src="Today'sTopDeals/15.jpg" />
+          </div>
+          <div class="today_deals_product_item">
+            <img src="Today'sTopDeals/16.jpg" />
+        </div>
+        <div class="today_deals_product_item">
+          <img src="Today'sTopDeals/17.jpg" />
+      </div>
+      <div class="today_deals_product_item">
+        <img src="Today'sTopDeals/18.jpg" />
+    </div>
+    <div class="today_deals_product_item">
+      <img src="Today'sTopDeals/19.jpg" />
+  </div>
+  <div class="today_deals_product_item">
+    <img src="Today'sTopDeals/20.jpg" />
+</div>
+<div class="today_deals_product_item">
+  <img src="Today'sTopDeals/21.jpg" />
+</div>
+<div class="today_deals_product_item">
+  <img src="Today'sTopDeals/22.jpg" />
+</div>  </div>
+      </div>
+  </section>
+  
+ <!--Hot deals -->
+ <section class="hot_deals_container">
+  <div class="hot_deals_heading">
+      <h1>Top Deals</h1>
+      <p><a href="#">See all deals</a></p>
+  </div> 
+
+  <div class="hot_deals_product_container">
+      <div class="hot_deals_btn_container">
+          <button class="hot_deal_btn" id="hot_deal_btn_prev">
+              <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="hot_deal_btn" id="hot_deal_btn_next">
+              <i class="fa-solid fa-angle-right"></i>
+          </button>
+      </div>
+
+      <div class="hot_deals_product_list" id="hot_deals_product_list">
+          <div class="hot_deals_product_item">
+              <img src="Hot deals/1.jpg" />
+              <div class="discount_Contaienr">
+                <a href="#">Up to 72% off</a>
+                <a href="#">Deal of the day</a>
+            </div>
+            <p>Top Deals on Gaming Laptop</p>
+          </div>
+
+          <div class="hot_deals_product_item">
+            <img src="Hot deals/2.jpg" />
+            <div class="discount_Contaienr">
+              <a href="#">Up to 60% off</a>
+              <a href="#">Deal of the day</a>
+          </div>
+          <p>Top Deals on Monitor</p>
+        </div>
+
+        <div class="hot_deals_product_item">
+          <img src="Hot deals/3.jpg" />
+          <div class="discount_Contaienr">
+            <a href="#">Up to 30% off</a>
+            <a href="#">Deal of the day</a>
+        </div>
+        <p>Top Deals on Boat Ear-Buds</p>
+      </div>
+
+      <div class="hot_deals_product_item">
+        <img src="Hot deals/4.jpg" />
+        <div class="discount_Contaienr">
+          <a href="#">Up to 40% off</a>
+          <a href="#">Deal of the day</a>
+      </div>
+      <p>Top Deals on pTron Ear-Buds</p>
+    </div>
+
+    <div class="hot_deals_product_item">
+      <img src="Hot deals/5.jpg" />
+      <div class="discount_Contaienr">
+        <a href="#">Up to 52% off</a>
+        <a href="#">Deal of the day</a>
+    </div>
+    <p>Top Deals on Adidas and Campus Footwear</p>
+  </div>
+
+  <div class="hot_deals_product_item">
+    <img src="Hot deals/6.jpg" />
+    <div class="discount_Contaienr">
+      <a href="#">Up to 25% off</a>
+      <a href="#">Deal of the day</a>
+  </div>
+  <p>Top Deals on Headphone and Mouse</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/7.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 40% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on Olive Oil</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/8.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 60% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on Puma and RedTape Footwear</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/9.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 30% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on Xiami NoteBooks Laptop</p>
+</div>
+
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/11.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 70% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on Truke Wireless</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/13.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 80% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on on Fashion</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/14.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 50% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on MIVI ear-buds</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/15.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 15% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on color Wireless Printer</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/16.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 35% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on 5G Moblile</p>
+</div>
+
+<div class="hot_deals_product_item">
+  <img src="Hot deals/17.jpg" />
+  <div class="discount_Contaienr">
+    <a href="#">Up to 10% off</a>
+    <a href="#">Deal of the day</a>
+</div>
+<p>Top Deals on Vacuum Cleaner</p>
+</div>
+
+      </div>
+  </div>
+</section>
+
+<section class="bottom-sign-in">
+  <hr class="bottom-sign-in-top-hr">
+  <div class="bottom-sign-in-content">
+  <p class="personalized-recommendations">See personalized recommendations</p>
+  <button class="btn-bottom-sign-in">Sign in</button>
+  <p class="new-customer">New customer? <span class="new-customer-span">Start here.</span></p>
+</div>
+  <hr class="bottom-sign-in-bottom-hr">
+</section>
+  </main>
+
+
+  <!-- Footer element -->
+  <footer>
+    <div class="foot-panel1">Back to Top</div>
+    <div class="foot-panel2">
+      <ul>
+        <p>Get to Know Us</p>
+        <li>Carrers</li>
+        <li>Blog</li>
+        <li>About Amazon</li>
+        <li>Investor Relations</li>
+        <li>Amazon Devices</li>
+        <li>Amazon Sciences</li>
+      </ul>
+      <ul>
+        <p>Make Money with Us</p>
+        <li>Sell products on Amazon</li>
+        <li>Sell apps on Amazon</li>
+        <li>Become an Affiliate </li>
+        <li>Advertise Your Products</li>
+        <li>Sell on Amazon Business</li>
+        <li>Self-Publish with Us</li>
+        <li>Host an Amazon Hub</li>
+        <li>> See More Make Money with Us </li>
+      </ul>
+      <ul>
+        <p>Amazon Payment Products</p>
+        <li>Amazon Business Card</li>
+        <li>Shop with Points</li>
+        <li>Reload Your Balance </li>
+        <li>Amazon Currency Converter</li>
+       </ul>
+      <ul>
+        <p>Let Us Help You</p>
+        <li>Amazon and COVID-19</li>
+        <li>Your Account</li>
+        <li>Your Orders</li>
+        <li>Return & Replacements</li>
+        <li>Manage Your Content and Devices</li>
+        <li>Help</li>
+      </ul>
+    </div>
+
+    <div class="foot-panel3">
+      <div class="logo">
+        <img src="amazon_logo.png" alt="logo">
+      </div>
+    </div>
+
+    <div class="foot-panel4">
+      <div class="pages">
+        <ul>
+          <li>Conditions of Use</li>
+          <li>Privacy Notice</li>
+          <li>Your Ads Privacy Choices</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyrights of Use Notice Yours Ads Privacy Choices</p>
+      <p> &copy 1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </div>
+  </footer>
+  <script src="style2.js"defer></script>
+    <script src="style.js"defer></script>
+   
+</body>
+
+</html>
